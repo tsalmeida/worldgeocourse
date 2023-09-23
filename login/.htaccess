@@ -1,0 +1,8 @@
+<Files "users.db">
+Order Allow,Deny
+Deny from all
+</Files>
+AuthType Basic
+AuthName "login"
+AuthUserFile "/home/tsilvaalmeida/.htpasswds/public_html/itamaratyhp/login/passwd"
+require valid-user

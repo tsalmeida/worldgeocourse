@@ -1,0 +1,453 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+@import url(//fonts.googleapis.com/css?family=Comfortaa);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:500,700,500italic);
+
+html, body {
+	background-color: #191919;
+}
+
+#screenFiller {
+	position: absolute;
+	background-color: #191919;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+
+.sideDiv {
+	position: relative;
+	background-color: #191919;
+	width: 100%;
+	height: 10%;
+	overflow: auto;
+	border-style: solid;
+	border-color: #191919;
+	border-width: 1px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	float: left;
+}
+
+.changePageDiv {
+	position: relative;
+	background-color: #191919;
+	width: 5%;
+	height: 80%;
+	border-style: solid;
+	border-color: #191919;
+	border-width: 1px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	float: left;
+}
+
+.changePage {
+	height: 80%;
+	width: 80%;
+	background-color: #f5f5dc;
+	cursor: pointer;
+	position: fixed;
+	margin: 0.5vw;
+}
+
+.centerDiv {
+	position: relative;
+	width: 90%;
+	height: 80%;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	float: left;
+	overflow-y: auto;
+}
+
+.centerDivDefaultColor {
+	background-color: #f5f5dc;
+	border-color: #f5f5dc;
+}
+
+.centerDivNeutralColor {
+	background-color: #191919;
+	border-color: #191919;
+}
+
+.menuItem {
+	position: relative;
+	background-color: #f5f5dc;
+	width: auto;
+	height: 35%;
+	word-break: break-all;
+	border-style: solid;
+	border-color: #f5f5dc;
+	border-width: 1px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin-top: 1vw;
+	cursor: pointer;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.sideMenuItem {
+	position: relative;
+	background-color: #f5f5dc;
+	width: auto;
+	height: 35%;
+	word-break: break-all;
+	border-style: solid;
+	border-color: #f5f5dc;
+	border-width: 1px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin-top: 1vw;
+	cursor: pointer;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.menuItemText {
+	font-family: Comfortaa, Impact, Verdana;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 3vw;
+	color: #191919;
+}
+
+.leftSide {
+	float: left;
+	margin-left: 1vw;
+}
+
+.rightSide {
+	float: right;
+	margin-right: 1vw;
+}
+
+.circleDiv {
+	position: relative;
+	background-color: #f5f5dc;
+	width: auto;
+	height: 35%;
+	word-break: break-all;
+	border-style: solid;
+	border-color: #f5f5dc;
+	border-width: 1px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin-top: 1vw;
+	cursor: pointer;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	float: left;
+	margin-left: 1vw;
+}
+
+.changeStyleText {
+	font-size: 0vw;
+	position: relative;
+}
+
+.changeStyleDefaultText {
+	font-size: 4.5vw;
+	position: relative;
+}
+
+/*alternate stylesheet*/
+
+.changeStyle {
+	width: 0;
+	height: 0;
+	background-color: #f5f5dc;
+	color: #191919;
+	font-family: Libre Baskerville, Times New Roman, Serif;
+}
+
+.changeStyleDefault {
+	width: 30vw;
+	height: 30vw;
+	cursor: pointer;
+	background-color: #f5f5dc;
+	color: #191919;
+	font-family: Libre Baskerville, Times New Roman, Serif;
+}
+
+.changeStyleDefault:hover {
+	background-color: #f5f5dc;
+	color: #191919;
+	font-family: Libre Baskerville, Times New Roman, Serif;
+}
+
+.bringTheSun {
+	background: #f5f5dc;
+	background-color: #f5f5dc;
+}
+
+.backStyle {
+	background: #f5f5dc;
+	background-color: #f5f5dc;
+	font-size: 5vw;
+	color: #f5f5dc;
+}
+
+.centerThings {
+	position: relative;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.hoverReady:hover {
+	background-color:#f5f5dc;
+	border-color: #f5f5dc;
+	background: #f5f5dc;
+	background-color: #f5f5dc;
+}
+
+.content {
+	position:relative;
+	vertical-align:text-top;
+	font-family:Roboto, Arial, Sans;
+	font-size:1.5em;
+	word-wrap:break-word;
+	display: block;
+	font-weight: 550;
+	margin-left: 2vw;
+	margin-right: 1vw;
+	text-align: justify;
+	color: #191919;
+}
+
+.clink {
+	position:relative;
+	vertical-align:text-top;
+	font-family:"Roboto Condensed",Impact,Verdana;
+	font-size:1.5em;
+	word-wrap:break-word;
+	display: block;
+	color: #191919;
+}
+
+.contentLvl1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family:Libre Baskerville,Times New Roman,Times;
+	font-size:3.8vw;
+	word-wrap:break-word;
+	display: block;
+	font-weight: bold;
+	padding-bottom: 0.5vw;
+	padding-top: 2vw;
+	color: #191919;
+}
+
+.contentLvl2 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family:Libre Baskerville,Times New Roman,Times;
+	font-size:2.5vw;
+	word-wrap:break-word;
+	display: block;
+	padding-bottom: 0.5vw;
+	padding-top: 2vw;
+	color: #191919;
+}
+
+.contentLvl3 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-family:Libre Baskerville,Times New Roman,Times;
+	font-size:2vw;
+	word-wrap:break-word;
+	display: block;
+	padding-bottom: 0.5vw;
+	padding-top: 2vw;
+	font-style: italic;
+	color: #191919;
+}
+
+#pageTop {
+	height: 7%;
+	width:100%;
+	position: relative;
+}
+
+.hideWhen {
+	display: block;
+}
+
+.topIconsFormat {
+	font-size: 3vw;
+	color: #a3a3a3;
+	cursor: pointer;
+}
+
+.topIconsFormat:hover {
+	color: #191919;
+}
+
+.aroundTopIcons {
+	height: 100%;
+	width: 3.5vw;
+	position: relative;
+	float: right;
+}
+
+.book {
+	height: 100%;
+	overflow-y: auto;
+	width: 100%;
+	position: relative;
+	padding: 4vw;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.around {
+	position: relative;
+	background-color: #f5f5dc;
+	border-style: solid;
+	border-color: #a3a3a3;
+	border-width: 0.2vw;
+	border-radius: 0.8vw;
+	padding-top: 0.5vw;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+}
+
+ul.b {
+	list-style-type: square;
+}
+
+a:link {
+	text-decoration:none;
+	color: #4099ff;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #4099ff;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: #0479FB;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+.imageTitle {
+	position:relative;
+	vertical-align:text-top;
+	font-family:Roboto,Helvetica,Arial;
+	font-size:0.9em;
+	word-wrap:break-word;
+	display: block;
+	font-style: italic;
+	text-align: center;
+	padding: 0.5vw;
+	color: #191919;
+}
+
+img.fitImage {
+	position:relative;
+	height:auto;
+	width:auto;
+	max-height:30vw;
+	max-width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hideWhen {
+	display: none;
+}
+
+/* CHAPTER LINKS */
+
+.chapterLink {
+	position: relative;
+	background-color: #fdfdf8;
+	border-style: solid;
+	border-color: #191919;
+	border-width: 0.2vw;
+	border-radius: 0.8vw;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.6em;
+	margin-bottom: 0.3em;
+	margin-right: 0.5em;
+	cursor: pointer;
+}
+
+.chapterLink:hover {
+	background-color: #191919;
+	border-color: #191919;
+	color: #fdfdf8;
+}
+
+.indent {
+	margin-left: 4vw;
+}
+
+li {
+	padding-right: 2vw;
+	padding-bottom: 0.5vw;
+}
+
+/*LOADING TRANSITION*/
+
+html {
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+}
+html, body {
+	/* For the loading indicator to be vertically centered ensure */
+	/* the html and body elements take up the full viewport */
+	min-height: 100%;
+}
+html.loading {
+	/* Replace #333 with the background-color of your choice */
+	/* Replace loading.gif with the loading image of your choice */
+	background: #191919 url('loading.gif') no-repeat 50% 50%;
+	
+	/* Ensures that the transition only runs in one direction */
+	-webkit-transition: background-color 0;
+	transition: background-color 0;
+}
+body {
+	-webkit-transition: opacity 1s ease-in;
+	transition: opacity 1s ease-in;
+}
+html.loading body {
+	/* Make the contents of the body opaque during loading */
+	opacity: 0;
+	
+	/* Ensures that the transition only runs in one direction */
+	-webkit-transition: opacity 0;
+	transition: opacity 0;
+}
